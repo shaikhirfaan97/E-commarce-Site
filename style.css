@@ -1,0 +1,301 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.menu_list {
+  float: right;
+  top: 0px;
+  left: 0px;
+  margin: 10px;
+  font-weight: 700;
+  list-style: none;
+  padding-top: 12px;
+}
+
+.anchor:hover {
+  /* color: aqua; */
+  opacity: 0.6;
+}
+.nav {
+  display: flex;
+  background-color: whitesmoke;
+  justify-content: space-around;
+  margin-bottom: 8px;
+}
+
+.logo {
+  display: inline-block;
+}
+
+.anchor {
+  text-decoration: none;
+}
+
+.welcome{
+  border: 3px solid blue; 
+}
+
+.banner {
+  border: 1px solid black;
+  width: 50vw;
+  height: 36rem;
+}
+
+.banner_2 {
+  border: 1px solid black;
+  width: 46vw;
+  height: 36rem;
+}
+.ban {
+  float: left;
+}
+.small_banner {
+  display: inline-block;
+  margin: 2px;
+  margin-top: 27px;
+  border: 1px solid black;
+  width: 283px;
+  height: 251px;
+  margin-left: 18px;
+}
+.left_banner {
+  width: 95%;
+  margin-top: 10px;
+  margin-left: 13px;
+}
+.banner_img {
+  height: 100%;
+  width: 100%;
+}
+
+.banner_title h3 {
+  position: absolute;
+  font-style: italic;
+  top: 51%;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  left: 11%;
+  color: white;
+}
+
+.banner_title h2 {
+  position: absolute;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  top: 43%;
+  color: white;
+  font-size: 39px;
+  left: 11%;
+}
+
+/* img title */
+
+.women h2 {
+  position: absolute;
+  top: 29%;
+  right: 34%;
+}
+
+.women h3 {
+  position: absolute;
+  top: 35%;
+  right: 29%;
+}
+
+.men h2 {
+  position: absolute;
+  top: 29%;
+  right: 13%;
+}
+
+.men h3 {
+  position: absolute;
+  top: 35%;
+  right: 8%;
+}
+
+.kid h2 {
+  position: absolute;
+  top: 70%;
+  right: 36%;
+}
+
+.kid h3 {
+  position: absolute;
+  top: 78%;
+  right: 31%;
+}
+.accessories h2 {
+  position: absolute;
+  top: 70%;
+  right: 9%;
+}
+
+.accessories h3 {
+  position: absolute;
+  top: 78%;
+  right: 6%;
+  font-size: 18px;
+}
+.banner_text {
+  color: white;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+/* Women Hover Code */
+
+.women_hover {  
+  opacity: 0;
+  top: 19%;
+  position: absolute;
+  right: 390px;
+  color: white;
+  width: 263px;
+  height: 204px;
+  background-color: #2d2d2d;
+
+}
+.women_hover ,h1,h3{
+  color: white;
+  text-align: center;
+  padding-top: 48px;
+  
+}
+
+.women_hover button{
+  margin-top: 10px;
+  color: white;
+  background-color: black;
+  text-align: center;
+  padding-top: 4px;
+  padding-bottom: 9px;
+}
+
+.banner_2 .small_banner:hover .women_hover {
+ transition: .9s ease;
+  opacity: 0.9;
+}
+
+/* Women hover Code End */
+
+
+.men_hover {  
+  opacity:0;
+  top: 19%;
+  right: 6%;
+  position: absolute;
+  /* right: 390px; */
+  color: white;
+  width: 263px;
+  height: 204px;
+  background-color: #2d2d2d;
+
+}
+.men_hover ,h1,h3{
+  color: white;
+  text-align: center;
+  padding-top: 48px;
+  
+}
+
+.men_hover button{
+  margin-top: 10px;
+  color: white;
+  background-color: black;
+  text-align: center;
+  padding-top: 4px;
+  padding-bottom: 9px;
+}
+
+.banner_2 .small_banner:hover .men_hover {
+ transition: .9s ease;
+  opacity: 0.9;
+}
+
+/* Kids Hover Start */
+
+.kid_hover {  
+  opacity:0;
+  top: 61%;
+  right: 29%;
+  position: absolute;
+  /* right: 390px; */
+  color: white;
+  width: 263px;
+  height: 204px;
+  background-color: #2d2d2d;
+
+}
+.kid_hover ,h1,h3{
+  color: white;
+  text-align: center;
+  padding-top: 48px;
+  
+}
+
+.kid_hover button{
+  margin-top: 10px;
+  color: white;
+  background-color: black;
+  text-align: center;
+  padding-top: 4px;
+  padding-bottom: 9px;
+}
+
+.banner_2 .small_banner:hover .kid_hover {
+ transition: .9s ease;
+  opacity: 0.9;
+}
+
+/* Kids Hover End */
+
+
+/* Accessories Hover Start  */
+  
+  
+.accessories_hover {  
+  opacity:0;
+  top: 61%;
+  right: 6%;
+  position: absolute;
+  /* right: 390px; */
+  color: white;
+  width: 263px;
+  height: 204px;
+  background-color: #2d2d2d;
+
+}
+.accessories_hover ,h1,h3{
+  color: white;
+  text-align: center;
+  padding-top: 48px;
+  
+}
+
+.accessories_hover button{
+  margin-top: 10px;
+  color: white;
+  background-color: black;
+  text-align: center;
+  padding-top: 4px;
+  padding-bottom: 9px;
+}
+
+.banner_2 .small_banner:hover .accessories_hover {
+ transition: .9s ease;
+  opacity: 0.9;
+}
+
+/* Accessories Hover End  */
+
+ /* Men's Styling Start Here  */
+
+  .container_men{
+    
+    border: 1px solid black;
+  }
+ /* Men's Styling End Here  */
+
+
+ 
